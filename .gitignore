@@ -1,8 +1,8 @@
 linux/**/*
 doom1.wad
 
-# Created by https://www.toptal.com/developers/gitignore/api/vim,tags,emacs,linux,macos,windows,visualstudiocode,c,assembler
-# Edit at https://www.toptal.com/developers/gitignore?templates=vim,tags,emacs,linux,macos,windows,visualstudiocode,c,assembler
+# Created by https://www.toptal.com/developers/gitignore/api/vim,tags,emacs,linux,macos,windows,visualstudiocode,c,c++,assembler
+# Edit at https://www.toptal.com/developers/gitignore?templates=vim,tags,emacs,linux,macos,windows,visualstudiocode,c,c++,assembler
 
 ### Assembler ###
 *.exe
@@ -60,6 +60,25 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+### C++ ###
+# Prerequisites
+
+# Compiled Object files
+*.slo
+
+# Precompiled Headers
+
+# Compiled Dynamic libraries
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+
+# Executables
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
@@ -242,4 +261,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/vim,tags,emacs,linux,macos,windows,visualstudiocode,c,assembler
+# End of https://www.toptal.com/developers/gitignore/api/vim,tags,emacs,linux,macos,windows,visualstudiocode,c,c++,assembler
+
