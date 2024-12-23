@@ -1,4 +1,4 @@
-linux/**/*
+linuxdoom-1.10/linux/**/*
 doom1.wad
 
 # Created by https://www.toptal.com/developers/gitignore/api/vim,tags,emacs,linux,macos,windows,visualstudiocode,c,c++,assembler
