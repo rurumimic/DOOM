@@ -24,15 +24,29 @@ make
 
 ### Graphics
 
-```bash
-sudo apt install xserver-xephyr
-```
+#### Install Xephyr
+
+- Arch Wiki: [Xephyr](https://wiki.archlinux.org/title/Xephyr)
 
 ```bash
-sudo Xephyr :2 -ac -screen 960x600x8
+# Ubuntu
+sudo apt install xserver-xephyr
+
+# Arch
+sudo pacman -S xorg-server-xephyr
 ```
+
+#### Open Xephyr
+
+```bash
+Xephyr :2 -ac -screen 960x600x8
+```
+
+or run with sudo.
 
 ## Run
+
+In `linuxdoom-1.10` directory:
 
 ```bash
 DISPLAY=:2
